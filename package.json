@@ -6,7 +6,8 @@
   "description": "A basic calculator application with advanced functionality",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "cp -r public/* dist/"
   },
   "keywords": [],
   "author": "",

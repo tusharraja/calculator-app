@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator App</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="calculator-container">
+        <h1>Calculator App</h1>
+        <div class="calculator">
+            <input type="number" id="num1" placeholder="Enter first number">
+            <input type="number" id="num2" placeholder="Enter second number">
+            
+            <div class="operations">
+                <button onclick="performOperation('add')">Add</button>
+                <button onclick="performOperation('subtract')">Subtract</button>
+                <button onclick="performOperation('multiply')">Multiply</button>
+                <button onclick="performOperation('divide')">Divide</button>
+                <button onclick="performOperation('modulus')">Modulus</button>
+                <button onclick="performOperation('power')">Power</button>
+                <button onclick="performOperation('sqrt')">Square Root</button>
+                <button onclick="performOperation('percentage')">Percentage</button>
+            </div>
+            
+            <div id="result" class="result">
+                Result will appear here
+            </div>
+        </div>
+    </div>
+    <script src="js/calculator.js"></script>
+</body>
+</html>
